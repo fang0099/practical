@@ -16,8 +16,8 @@ void BubbleSort(int num[], int length) {
 
 int main() {
     int a[] = {4, 7, 9, 13, 1, 8, 2};
-    BubbleSort(a, 6);
-    for(int i = 0; i < 6; i++) {
+    BubbleSort(a, 7);
+    for(int i = 0; i < 7; i++) {
         printf("%d ", a[i]);
     }
     printf("\n");
