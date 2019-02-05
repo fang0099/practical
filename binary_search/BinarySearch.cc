@@ -1,6 +1,9 @@
 #include<stdio.h>
 
 int BinarySearch(int array[], int arraylen, int target) {
+    if (NULL == array) {
+        return -1;
+    }
     int start = 0;
     int end = arraylen - 1;
     int mid = (start + end)/2;
