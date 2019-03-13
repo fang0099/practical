@@ -23,7 +23,7 @@ vector<int> PostorderTraversal(TreeNode* root) {
             curr = curr->left;
         }
         curr = s.top();
-        if(curr->right == NULL || curr==previsited) {
+        if(curr->right == NULL || curr->right == previsited) {
             result.push_back(curr->val);
             s.pop();
             previsited = curr;
